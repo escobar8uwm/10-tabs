@@ -1,0 +1,75 @@
+html{
+    background-color: rgb(246, 188, 219);
+    
+    font-family: "Nunito", sans-serif;
+
+}
+
+.wrapper{
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+code{
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.site-header{
+    background-color: rgb(232, 164, 75);
+    padding: 20px 20px 0 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+
+
+.navigation-tabs{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+    gap: 4px;
+   
+}
+
+.navigation-tabs li{
+    flex: 1 1 0;
+}
+
+.nav-link{
+    margin-top: 10px;
+    background-color: rgb(197, 87, 3);
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.nav-link:hover{
+    background-color: rgb(255, 182, 45);
+}
+
+
+.site-main{
+    background-color: aliceblue;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 20pt;
+}
+
+.h2-style{
+    color: rgb(6, 140, 42);
+}
+
+.current-page{
+    background-color: aliceblue;
+    color: rgb(232, 164, 75);
+}
